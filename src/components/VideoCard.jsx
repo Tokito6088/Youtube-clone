@@ -28,7 +28,7 @@ const VideoCard = ({
 						{snippet?.channelTitle || demoChannelTitle.slice(0, 60)}
 						<CheckCircle sx={{ fontSize: '12px', color: '#8e8e8e', ml: '5PX' }} />
 					</Typography>
-					<Typography sx={{ color: '#fff' }}>{dayjs(snippet?.publishTime).format('MMM D,YYYY')}</Typography>
+					<Typography sx={{ color: '#fff', opacity: '0.5' }}>{dayjs(snippet?.publishTime).format('MMM D,YYYY')}</Typography>
 				</Link>
 			</CardContent>
 		</Box>

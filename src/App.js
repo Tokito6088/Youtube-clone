@@ -6,6 +6,7 @@ import VideoDetail from './components/VideoDetail';
 import ChannelDetail from './components/ChannelDetail';
 import SearchFeed from './components/SearchFeed';
 import Feed from './components/Feed';
+import './App.css';
 
 const App = () => (
 	<BrowserRouter>

@@ -11,10 +11,11 @@ import GraphicEqIcon from '@mui/icons-material/GraphicEq';
 import TheaterComedyIcon from '@mui/icons-material/TheaterComedy';
 import FitnessCenterIcon from '@mui/icons-material/FitnessCenter';
 import DeveloperModeIcon from '@mui/icons-material/DeveloperMode';
+import VideoSettingsIcon from '@mui/icons-material/VideoSettings';
 
 export const categories = [
 	{ name: 'New', icon: <HomeIcon /> },
-	{ name: 'js mastery', icon: <HomeIcon /> },
+	{ name: 'Short', icon: <VideoSettingsIcon /> },
 	{ name: 'Comedy', icon: <TheaterComedyIcon /> },
 	{ name: 'one piece' },
 	{ name: 'Anime' },
